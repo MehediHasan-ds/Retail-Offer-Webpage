@@ -1,0 +1,52 @@
+/* Shared Styles */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    width: 1511px;
+    height: 600px;
+}
+
+main{
+    margin:50px 140px ;
+}
+section{
+    height: 600px;
+}
+
+.center-texts{
+    text-align: center;
+}
+
+/* party celebration */
+.party-celebration{
+    background-image:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url(/images/Banner_Image.png);
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.party{
+    height: 245px;
+    width: 630px;
+}
+.party h5{
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    opacity: 70%;
+}
+.party h3{
+    font-size: 72px;
+    line-height: 68px;
+    font-weight: bold;
+    margin-top: 0px;
+    opacity: 95%;
+}
+
