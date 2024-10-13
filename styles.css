@@ -1,5 +1,6 @@
 /* Shared Styles */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .merriweather-regular {
     font-family: "Merriweather", serif;
@@ -17,6 +18,7 @@ main{
 }
 section{
     height: 600px;
+    margin-bottom: 120px;
 }
 
 .center-texts{
@@ -50,3 +52,48 @@ section{
     opacity: 95%;
 }
 
+/* Percentage Discount */
+.percentage-discount{
+    margin: 120px 260px;
+    margin-bottom: 240px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.percentage-discount h2{
+    font-size: 88px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 0px;
+}
+.percentage-discount p{
+    font-size: 24px;
+    color: red;
+}
+.percentage-discount h4{
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+/* Midnight Party */
+.midnight-party{
+    background-image:linear-gradient(
+        rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)
+    ), url(/images/Vectorrr.png);
+    color: white;
+    display: flex;
+    gap:39px ;
+    align-items: center;
+}
+
+.midnight-text{
+    width: 600px;
+    padding-left: 126px;
+    
+}
+.midnight-image{
+
+}
