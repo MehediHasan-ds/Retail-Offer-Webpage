@@ -17,7 +17,7 @@ main{
     margin:50px 140px ;
 }
 section{
-    height: 600px;
+    /* height: 600px; */
     margin-bottom: 120px;
 }
 
@@ -27,12 +27,14 @@ section{
 
 /* party celebration */
 .party-celebration{
+    height: 600px;
     background-image:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url(/images/Banner_Image.png);
     background-repeat: no-repeat;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
 }
 .party{
     height: 245px;
@@ -54,11 +56,13 @@ section{
 
 /* Percentage Discount */
 .percentage-discount{
+    height: 800px;
     margin: 120px 260px;
     margin-bottom: 240px;
     text-align: center;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+
 }
 
 .percentage-discount h2{
@@ -80,6 +84,7 @@ section{
 
 /* Midnight Party */
 .midnight-party{
+    height: 600px;
     background-image:linear-gradient(
         rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)
     ), url(/images/Vectorrr.png);
@@ -87,13 +92,182 @@ section{
     display: flex;
     gap:39px ;
     align-items: center;
+    border-radius: 16px;
 }
 
 .midnight-text{
-    width: 600px;
+    width: 690px;
     padding-left: 126px;
     
 }
-.midnight-image{
+/* .midnight-image{
+    background: linear-gradient(#C3852F,#AA7307);
+} */
+.midnight-text h3{
+    width: 530px;
+    font-size: 64px;
+    letter-spacing: 11%;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.midnight-text p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    opacity: 60%;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.midnight-party button{
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
+/* place-time */
+.place-time{
+    height: 480px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background: linear-gradient(rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0));
+    text-align: center;
+    padding:100px 385px;
+    font-size: 28px;
+    font-weight:600;
+    line-height: 56px;
+}
+.red-colored{
+    color: red;
+}
+.place-time button{
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+/* best offers */
+.best-offers{
+    height: 460px;
+    margin-top: 0px;
+    display: flex;
+}
+
+.item2{
+    border: 10px solid red;
+    padding: 49px;
+    border-radius: 50%;
+    margin: 0px 140px 0px 70px;
+}
+
+
+.item1 h6{
+    color: red;
+    font-size: 24px;
+    font-weight:500;
+    margin-bottom: 16px;
+}
+.item1 h4{
+    margin-top: 0px;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+.item3 h3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.item3 img{
+    margin-top: 46px;
+}
+
+
+/* holiday sale */
+.holiday-sale{
+    height: 985px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.sale-description{
+    height: 260px;
+    margin-bottom: 0px;
+}
+
+.discount-img {
+    position: relative;
+}
+
+.gift {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+.discount {
+    position: relative;
+    bottom: 0;
+    left: 410px;
+}
+
+/* portfolio */
+.portfolio{
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+.portfolio-images{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-images img{
+    width: 400px;
+    height: 450px;
+}
+
+/* subscribe-newsletter */
+.subscribe-newsletter{
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 80px 210px;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 120px 40px 120px 140px ;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 75px;
+}
+
+.connections{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.call {
+    display: flex;
+    margin-bottom: 10px;
+}
+.call img{
+    padding-right: 10px;
+}
+.website{
+    display: flex;
+}
+.website img{
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: wheat;
 }
